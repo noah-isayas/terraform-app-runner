@@ -297,7 +297,7 @@ backend "s3" {
 
 * se på workflow-filen. 
 
-Som dere ser er "glenn" hardkodet ganske mange steder, bruk ditt eget ECR repository. Endre dette til ditt eget studentnavn
+Som dere ser er "glenn" hardkodet ganske mange steder, bruk ditt eget ECR repository.
 
 ```sh
   docker build . -t hello
