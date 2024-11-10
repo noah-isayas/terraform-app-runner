@@ -7,7 +7,7 @@ on:
   pull_request:
 
 jobs:
-  # Builds a new container image and pushes it on every commit to the repository
+  # Builds a new container  image and pushes it on every commit to the repository
   # Also pushes a tag called "latest" to track the lates commit
 
   build_docker_image:
